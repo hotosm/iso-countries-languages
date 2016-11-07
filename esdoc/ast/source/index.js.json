@@ -1,0 +1,2207 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "packagedJson",
+            "range": [
+              4,
+              16
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 4
+              },
+              "end": {
+                "line": 1,
+                "column": 16
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "name": "JSON",
+                "range": [
+                  19,
+                  23
+                ],
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 19
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 23
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "parse",
+                "range": [
+                  24,
+                  29
+                ],
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 24
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 29
+                  }
+                }
+              },
+              "range": [
+                19,
+                29
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 19
+                },
+                "end": {
+                  "line": 1,
+                  "column": 29
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "Identifier",
+                  "name": "require",
+                  "range": [
+                    30,
+                    37
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 30
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 37
+                    }
+                  }
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "value": "lzstring!./packagedJson.json",
+                    "raw": "'lzstring!./packagedJson.json'",
+                    "range": [
+                      38,
+                      68
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 38
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 68
+                      }
+                    }
+                  }
+                ],
+                "range": [
+                  30,
+                  69
+                ],
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 30
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 69
+                  }
+                }
+              }
+            ],
+            "range": [
+              19,
+              70
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 19
+              },
+              "end": {
+                "line": 1,
+                "column": 70
+              }
+            }
+          },
+          "range": [
+            4,
+            70
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 4
+            },
+            "end": {
+              "line": 1,
+              "column": 70
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        0,
+        71
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 71
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "supportedLangs",
+            "range": [
+              76,
+              90
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 4
+              },
+              "end": {
+                "line": 2,
+                "column": 18
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "require",
+              "range": [
+                93,
+                100
+              ],
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 21
+                },
+                "end": {
+                  "line": 2,
+                  "column": 28
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "json!./supportedLangs.json",
+                "raw": "'json!./supportedLangs.json'",
+                "range": [
+                  101,
+                  129
+                ],
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 29
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 57
+                  }
+                }
+              }
+            ],
+            "range": [
+              93,
+              130
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 21
+              },
+              "end": {
+                "line": 2,
+                "column": 58
+              }
+            }
+          },
+          "range": [
+            76,
+            130
+          ],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 4
+            },
+            "end": {
+              "line": 2,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        72,
+        131
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 59
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n\t * Returns the list of supported languages\n\t * @return {Array} The list of all the supported languages\n\t ",
+          "range": [
+            133,
+            245
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 0
+            },
+            "end": {
+              "line": 7,
+              "column": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "getSupportedLangs",
+            "range": [
+              250,
+              267
+            ],
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 4
+              },
+              "end": {
+                "line": 8,
+                "column": 21
+              }
+            }
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "id": {
+              "type": "Identifier",
+              "name": "getSupportedLangs",
+              "range": [
+                250,
+                267
+              ],
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 4
+                },
+                "end": {
+                  "line": 8,
+                  "column": 21
+                }
+              }
+            },
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "argument": {
+                    "type": "Identifier",
+                    "name": "supportedLangs",
+                    "range": [
+                      291,
+                      305
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 9,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 23
+                      }
+                    }
+                  },
+                  "range": [
+                    284,
+                    306
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 9,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 24
+                    }
+                  }
+                }
+              ],
+              "range": [
+                280,
+                308
+              ],
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 34
+                },
+                "end": {
+                  "line": 10,
+                  "column": 1
+                }
+              }
+            },
+            "generator": false,
+            "expression": false,
+            "range": [
+              270,
+              308
+            ],
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 24
+              },
+              "end": {
+                "line": 10,
+                "column": 1
+              }
+            }
+          },
+          "range": [
+            250,
+            308
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 4
+            },
+            "end": {
+              "line": 10,
+              "column": 1
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        246,
+        309
+      ],
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n\t * Returns the list of supported languages\n\t * @return {Array} The list of all the supported languages\n\t ",
+          "range": [
+            133,
+            245
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 0
+            },
+            "end": {
+              "line": 7,
+              "column": 4
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n   * Returns the ISO 3166-1 list of countries translated in the language passed as a parameter\n   * @param  {String} lang The desired language for the translation\n   * @return {Array}      The countries list\n   ",
+          "range": [
+            311,
+            528
+          ],
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 0
+            },
+            "end": {
+              "line": 16,
+              "column": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "getCountries",
+            "range": [
+              533,
+              545
+            ],
+            "loc": {
+              "start": {
+                "line": 17,
+                "column": 4
+              },
+              "end": {
+                "line": 17,
+                "column": 16
+              }
+            }
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "id": {
+              "type": "Identifier",
+              "name": "getCountries",
+              "range": [
+                533,
+                545
+              ],
+              "loc": {
+                "start": {
+                  "line": 17,
+                  "column": 4
+                },
+                "end": {
+                  "line": 17,
+                  "column": 16
+                }
+              }
+            },
+            "params": [
+              {
+                "type": "Identifier",
+                "name": "lang",
+                "range": [
+                  557,
+                  561
+                ],
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 28
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 32
+                  }
+                }
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "argument": {
+                    "type": "MemberExpression",
+                    "computed": true,
+                    "object": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "name": "packagedJson",
+                        "range": [
+                          573,
+                          585
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 18,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 18,
+                            "column": 21
+                          }
+                        }
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "countries",
+                        "range": [
+                          586,
+                          595
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 18,
+                            "column": 22
+                          },
+                          "end": {
+                            "line": 18,
+                            "column": 31
+                          }
+                        }
+                      },
+                      "range": [
+                        573,
+                        595
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 18,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 18,
+                          "column": 31
+                        }
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "lang",
+                      "range": [
+                        596,
+                        600
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 18,
+                          "column": 32
+                        },
+                        "end": {
+                          "line": 18,
+                          "column": 36
+                        }
+                      }
+                    },
+                    "range": [
+                      573,
+                      601
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 18,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 18,
+                        "column": 37
+                      }
+                    }
+                  },
+                  "range": [
+                    566,
+                    602
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 18,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 18,
+                      "column": 38
+                    }
+                  }
+                }
+              ],
+              "range": [
+                562,
+                604
+              ],
+              "loc": {
+                "start": {
+                  "line": 17,
+                  "column": 33
+                },
+                "end": {
+                  "line": 19,
+                  "column": 1
+                }
+              }
+            },
+            "generator": false,
+            "expression": false,
+            "range": [
+              548,
+              604
+            ],
+            "loc": {
+              "start": {
+                "line": 17,
+                "column": 19
+              },
+              "end": {
+                "line": 19,
+                "column": 1
+              }
+            }
+          },
+          "range": [
+            533,
+            604
+          ],
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 4
+            },
+            "end": {
+              "line": 19,
+              "column": 1
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        529,
+        605
+      ],
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n   * Returns the ISO 3166-1 list of countries translated in the language passed as a parameter\n   * @param  {String} lang The desired language for the translation\n   * @return {Array}      The countries list\n   ",
+          "range": [
+            311,
+            528
+          ],
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 0
+            },
+            "end": {
+              "line": 16,
+              "column": 5
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n   * Returns the translation for the country code passed as a parameter in the language passed as a parameter\n   * @param  {String} lang        The languages desired for the translation\n   * @param  {String} countryCode The country code for which to return the country name\n   * @return {String}             The translated country name\n   ",
+          "range": [
+            609,
+            954
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 2
+            },
+            "end": {
+              "line": 26,
+              "column": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "getCountry",
+            "range": [
+              960,
+              970
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 5
+              },
+              "end": {
+                "line": 27,
+                "column": 15
+              }
+            }
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "id": {
+              "type": "Identifier",
+              "name": "getCountry",
+              "range": [
+                960,
+                970
+              ],
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 5
+                },
+                "end": {
+                  "line": 27,
+                  "column": 15
+                }
+              }
+            },
+            "params": [
+              {
+                "type": "Identifier",
+                "name": "lang",
+                "range": [
+                  982,
+                  986
+                ],
+                "loc": {
+                  "start": {
+                    "line": 27,
+                    "column": 27
+                  },
+                  "end": {
+                    "line": 27,
+                    "column": 31
+                  }
+                }
+              },
+              {
+                "type": "Identifier",
+                "name": "countryCode",
+                "range": [
+                  988,
+                  999
+                ],
+                "loc": {
+                  "start": {
+                    "line": 27,
+                    "column": 33
+                  },
+                  "end": {
+                    "line": 27,
+                    "column": 44
+                  }
+                }
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "argument": {
+                    "type": "MemberExpression",
+                    "computed": true,
+                    "object": {
+                      "type": "MemberExpression",
+                      "computed": true,
+                      "object": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                          "type": "Identifier",
+                          "name": "packagedJson",
+                          "range": [
+                            1011,
+                            1023
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 28,
+                              "column": 9
+                            },
+                            "end": {
+                              "line": 28,
+                              "column": 21
+                            }
+                          }
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "countries",
+                          "range": [
+                            1024,
+                            1033
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 28,
+                              "column": 22
+                            },
+                            "end": {
+                              "line": 28,
+                              "column": 31
+                            }
+                          }
+                        },
+                        "range": [
+                          1011,
+                          1033
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 28,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 28,
+                            "column": 31
+                          }
+                        }
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "lang",
+                        "range": [
+                          1034,
+                          1038
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 28,
+                            "column": 32
+                          },
+                          "end": {
+                            "line": 28,
+                            "column": 36
+                          }
+                        }
+                      },
+                      "range": [
+                        1011,
+                        1039
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 28,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 28,
+                          "column": 37
+                        }
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "countryCode",
+                      "range": [
+                        1040,
+                        1051
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 28,
+                          "column": 38
+                        },
+                        "end": {
+                          "line": 28,
+                          "column": 49
+                        }
+                      }
+                    },
+                    "range": [
+                      1011,
+                      1052
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 28,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 28,
+                        "column": 50
+                      }
+                    }
+                  },
+                  "range": [
+                    1004,
+                    1053
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 28,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 28,
+                      "column": 51
+                    }
+                  }
+                }
+              ],
+              "range": [
+                1000,
+                1055
+              ],
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 45
+                },
+                "end": {
+                  "line": 29,
+                  "column": 1
+                }
+              }
+            },
+            "generator": false,
+            "expression": false,
+            "range": [
+              973,
+              1055
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 18
+              },
+              "end": {
+                "line": 29,
+                "column": 1
+              }
+            }
+          },
+          "range": [
+            960,
+            1055
+          ],
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 5
+            },
+            "end": {
+              "line": 29,
+              "column": 1
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        955,
+        1056
+      ],
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n   * Returns the translation for the country code passed as a parameter in the language passed as a parameter\n   * @param  {String} lang        The languages desired for the translation\n   * @param  {String} countryCode The country code for which to return the country name\n   * @return {String}             The translated country name\n   ",
+          "range": [
+            609,
+            954
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 2
+            },
+            "end": {
+              "line": 26,
+              "column": 5
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n   * Returns the ISO 639-1 list of languages translated in the language passed as a parameter\n   * @param  {String} lang The desired language for the translation\n   * @return {Array}      The language list\n   ",
+          "range": [
+            1060,
+            1275
+          ],
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "getLanguages",
+            "range": [
+              1280,
+              1292
+            ],
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 4
+              },
+              "end": {
+                "line": 36,
+                "column": 16
+              }
+            }
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "id": {
+              "type": "Identifier",
+              "name": "getLanguages",
+              "range": [
+                1280,
+                1292
+              ],
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 4
+                },
+                "end": {
+                  "line": 36,
+                  "column": 16
+                }
+              }
+            },
+            "params": [
+              {
+                "type": "Identifier",
+                "name": "lang",
+                "range": [
+                  1304,
+                  1308
+                ],
+                "loc": {
+                  "start": {
+                    "line": 36,
+                    "column": 28
+                  },
+                  "end": {
+                    "line": 36,
+                    "column": 32
+                  }
+                }
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "argument": {
+                    "type": "MemberExpression",
+                    "computed": true,
+                    "object": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "name": "packagedJson",
+                        "range": [
+                          1320,
+                          1332
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 37,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 37,
+                            "column": 21
+                          }
+                        }
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "languages",
+                        "range": [
+                          1333,
+                          1342
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 37,
+                            "column": 22
+                          },
+                          "end": {
+                            "line": 37,
+                            "column": 31
+                          }
+                        }
+                      },
+                      "range": [
+                        1320,
+                        1342
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 37,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 37,
+                          "column": 31
+                        }
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "lang",
+                      "range": [
+                        1343,
+                        1347
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 37,
+                          "column": 32
+                        },
+                        "end": {
+                          "line": 37,
+                          "column": 36
+                        }
+                      }
+                    },
+                    "range": [
+                      1320,
+                      1348
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 37,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 37,
+                        "column": 37
+                      }
+                    }
+                  },
+                  "range": [
+                    1313,
+                    1349
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 37,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 37,
+                      "column": 38
+                    }
+                  }
+                }
+              ],
+              "range": [
+                1309,
+                1351
+              ],
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 33
+                },
+                "end": {
+                  "line": 38,
+                  "column": 1
+                }
+              }
+            },
+            "generator": false,
+            "expression": false,
+            "range": [
+              1295,
+              1351
+            ],
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 19
+              },
+              "end": {
+                "line": 38,
+                "column": 1
+              }
+            }
+          },
+          "range": [
+            1280,
+            1351
+          ],
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 4
+            },
+            "end": {
+              "line": 38,
+              "column": 1
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        1276,
+        1352
+      ],
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n   * Returns the ISO 639-1 list of languages translated in the language passed as a parameter\n   * @param  {String} lang The desired language for the translation\n   * @return {Array}      The language list\n   ",
+          "range": [
+            1060,
+            1275
+          ],
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 5
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n   * Returns the translation for the language code passed as a parameter in the language passed as a parameter\n   * @param  {String} lang        The languages desired for the translation\n   * @param  {String} langCode The language code for which to return the cuntry name\n   * @return {String}             The translated country name\n",
+          "range": [
+            1355,
+            1695
+          ],
+          "loc": {
+            "start": {
+              "line": 40,
+              "column": 0
+            },
+            "end": {
+              "line": 45,
+              "column": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "getLanguage",
+            "range": [
+              1700,
+              1711
+            ],
+            "loc": {
+              "start": {
+                "line": 46,
+                "column": 4
+              },
+              "end": {
+                "line": 46,
+                "column": 15
+              }
+            }
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "id": {
+              "type": "Identifier",
+              "name": "getLanguage",
+              "range": [
+                1700,
+                1711
+              ],
+              "loc": {
+                "start": {
+                  "line": 46,
+                  "column": 4
+                },
+                "end": {
+                  "line": 46,
+                  "column": 15
+                }
+              }
+            },
+            "params": [
+              {
+                "type": "Identifier",
+                "name": "lang",
+                "range": [
+                  1723,
+                  1727
+                ],
+                "loc": {
+                  "start": {
+                    "line": 46,
+                    "column": 27
+                  },
+                  "end": {
+                    "line": 46,
+                    "column": 31
+                  }
+                }
+              },
+              {
+                "type": "Identifier",
+                "name": "langCode",
+                "range": [
+                  1729,
+                  1737
+                ],
+                "loc": {
+                  "start": {
+                    "line": 46,
+                    "column": 33
+                  },
+                  "end": {
+                    "line": 46,
+                    "column": 41
+                  }
+                }
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "argument": {
+                    "type": "MemberExpression",
+                    "computed": true,
+                    "object": {
+                      "type": "MemberExpression",
+                      "computed": true,
+                      "object": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                          "type": "Identifier",
+                          "name": "packagedJson",
+                          "range": [
+                            1749,
+                            1761
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 47,
+                              "column": 9
+                            },
+                            "end": {
+                              "line": 47,
+                              "column": 21
+                            }
+                          }
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "languages",
+                          "range": [
+                            1762,
+                            1771
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 47,
+                              "column": 22
+                            },
+                            "end": {
+                              "line": 47,
+                              "column": 31
+                            }
+                          }
+                        },
+                        "range": [
+                          1749,
+                          1771
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 47,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 47,
+                            "column": 31
+                          }
+                        }
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "lang",
+                        "range": [
+                          1772,
+                          1776
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 47,
+                            "column": 32
+                          },
+                          "end": {
+                            "line": 47,
+                            "column": 36
+                          }
+                        }
+                      },
+                      "range": [
+                        1749,
+                        1777
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 47,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 47,
+                          "column": 37
+                        }
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "langCode",
+                      "range": [
+                        1778,
+                        1786
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 47,
+                          "column": 38
+                        },
+                        "end": {
+                          "line": 47,
+                          "column": 46
+                        }
+                      }
+                    },
+                    "range": [
+                      1749,
+                      1787
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 47,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 47,
+                        "column": 47
+                      }
+                    }
+                  },
+                  "range": [
+                    1742,
+                    1788
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 47,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 47,
+                      "column": 48
+                    }
+                  }
+                }
+              ],
+              "range": [
+                1738,
+                1790
+              ],
+              "loc": {
+                "start": {
+                  "line": 46,
+                  "column": 42
+                },
+                "end": {
+                  "line": 48,
+                  "column": 1
+                }
+              }
+            },
+            "generator": false,
+            "expression": false,
+            "range": [
+              1714,
+              1790
+            ],
+            "loc": {
+              "start": {
+                "line": 46,
+                "column": 18
+              },
+              "end": {
+                "line": 48,
+                "column": 1
+              }
+            }
+          },
+          "range": [
+            1700,
+            1790
+          ],
+          "loc": {
+            "start": {
+              "line": 46,
+              "column": 4
+            },
+            "end": {
+              "line": 48,
+              "column": 1
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        1696,
+        1791
+      ],
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 0
+        },
+        "end": {
+          "line": 48,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n   * Returns the translation for the language code passed as a parameter in the language passed as a parameter\n   * @param  {String} lang        The languages desired for the translation\n   * @param  {String} langCode The language code for which to return the cuntry name\n   * @return {String}             The translated country name\n",
+          "range": [
+            1355,
+            1695
+          ],
+          "loc": {
+            "start": {
+              "line": 40,
+              "column": 0
+            },
+            "end": {
+              "line": 45,
+              "column": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "module",
+            "range": [
+              1793,
+              1799
+            ],
+            "loc": {
+              "start": {
+                "line": 50,
+                "column": 0
+              },
+              "end": {
+                "line": 50,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "exports",
+            "range": [
+              1800,
+              1807
+            ],
+            "loc": {
+              "start": {
+                "line": 50,
+                "column": 7
+              },
+              "end": {
+                "line": 50,
+                "column": 14
+              }
+            }
+          },
+          "range": [
+            1793,
+            1807
+          ],
+          "loc": {
+            "start": {
+              "line": 50,
+              "column": 0
+            },
+            "end": {
+              "line": 50,
+              "column": 14
+            }
+          }
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "properties": [
+            {
+              "type": "Property",
+              "key": {
+                "type": "Identifier",
+                "name": "getSupportedLangs",
+                "range": [
+                  1816,
+                  1833
+                ],
+                "loc": {
+                  "start": {
+                    "line": 52,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 52,
+                    "column": 19
+                  }
+                }
+              },
+              "value": {
+                "type": "Identifier",
+                "name": "getSupportedLangs",
+                "range": [
+                  1835,
+                  1852
+                ],
+                "loc": {
+                  "start": {
+                    "line": 52,
+                    "column": 21
+                  },
+                  "end": {
+                    "line": 52,
+                    "column": 38
+                  }
+                }
+              },
+              "kind": "init",
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "range": [
+                1816,
+                1852
+              ],
+              "loc": {
+                "start": {
+                  "line": 52,
+                  "column": 2
+                },
+                "end": {
+                  "line": 52,
+                  "column": 38
+                }
+              }
+            },
+            {
+              "type": "Property",
+              "key": {
+                "type": "Identifier",
+                "name": "getCountries",
+                "range": [
+                  1857,
+                  1869
+                ],
+                "loc": {
+                  "start": {
+                    "line": 54,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 54,
+                    "column": 14
+                  }
+                }
+              },
+              "value": {
+                "type": "Identifier",
+                "name": "getCountries",
+                "range": [
+                  1871,
+                  1883
+                ],
+                "loc": {
+                  "start": {
+                    "line": 54,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 54,
+                    "column": 28
+                  }
+                }
+              },
+              "kind": "init",
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "range": [
+                1857,
+                1883
+              ],
+              "loc": {
+                "start": {
+                  "line": 54,
+                  "column": 2
+                },
+                "end": {
+                  "line": 54,
+                  "column": 28
+                }
+              }
+            },
+            {
+              "type": "Property",
+              "key": {
+                "type": "Identifier",
+                "name": "getCountry",
+                "range": [
+                  1888,
+                  1898
+                ],
+                "loc": {
+                  "start": {
+                    "line": 56,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 56,
+                    "column": 12
+                  }
+                }
+              },
+              "value": {
+                "type": "Identifier",
+                "name": "getCountry",
+                "range": [
+                  1900,
+                  1910
+                ],
+                "loc": {
+                  "start": {
+                    "line": 56,
+                    "column": 14
+                  },
+                  "end": {
+                    "line": 56,
+                    "column": 24
+                  }
+                }
+              },
+              "kind": "init",
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "range": [
+                1888,
+                1910
+              ],
+              "loc": {
+                "start": {
+                  "line": 56,
+                  "column": 2
+                },
+                "end": {
+                  "line": 56,
+                  "column": 24
+                }
+              }
+            },
+            {
+              "type": "Property",
+              "key": {
+                "type": "Identifier",
+                "name": "getLanguages",
+                "range": [
+                  1916,
+                  1928
+                ],
+                "loc": {
+                  "start": {
+                    "line": 58,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 58,
+                    "column": 14
+                  }
+                }
+              },
+              "value": {
+                "type": "Identifier",
+                "name": "getLanguages",
+                "range": [
+                  1930,
+                  1942
+                ],
+                "loc": {
+                  "start": {
+                    "line": 58,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 58,
+                    "column": 28
+                  }
+                }
+              },
+              "kind": "init",
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "range": [
+                1916,
+                1942
+              ],
+              "loc": {
+                "start": {
+                  "line": 58,
+                  "column": 2
+                },
+                "end": {
+                  "line": 58,
+                  "column": 28
+                }
+              }
+            },
+            {
+              "type": "Property",
+              "key": {
+                "type": "Identifier",
+                "name": "getLanguage",
+                "range": [
+                  1947,
+                  1958
+                ],
+                "loc": {
+                  "start": {
+                    "line": 60,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 60,
+                    "column": 13
+                  }
+                }
+              },
+              "value": {
+                "type": "Identifier",
+                "name": "getLanguage",
+                "range": [
+                  1960,
+                  1971
+                ],
+                "loc": {
+                  "start": {
+                    "line": 60,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 60,
+                    "column": 26
+                  }
+                }
+              },
+              "kind": "init",
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "range": [
+                1947,
+                1971
+              ],
+              "loc": {
+                "start": {
+                  "line": 60,
+                  "column": 2
+                },
+                "end": {
+                  "line": 60,
+                  "column": 26
+                }
+              }
+            }
+          ],
+          "range": [
+            1810,
+            1974
+          ],
+          "loc": {
+            "start": {
+              "line": 50,
+              "column": 17
+            },
+            "end": {
+              "line": 62,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          1793,
+          1974
+        ],
+        "loc": {
+          "start": {
+            "line": 50,
+            "column": 0
+          },
+          "end": {
+            "line": 62,
+            "column": 1
+          }
+        }
+      },
+      "range": [
+        1793,
+        1975
+      ],
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 0
+        },
+        "end": {
+          "line": 62,
+          "column": 2
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    1975
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 62,
+      "column": 2
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n\t * Returns the list of supported languages\n\t * @return {Array} The list of all the supported languages\n\t ",
+      "range": [
+        133,
+        245
+      ],
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n   * Returns the ISO 3166-1 list of countries translated in the language passed as a parameter\n   * @param  {String} lang The desired language for the translation\n   * @return {Array}      The countries list\n   ",
+      "range": [
+        311,
+        528
+      ],
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n   * Returns the translation for the country code passed as a parameter in the language passed as a parameter\n   * @param  {String} lang        The languages desired for the translation\n   * @param  {String} countryCode The country code for which to return the country name\n   * @return {String}             The translated country name\n   ",
+      "range": [
+        609,
+        954
+      ],
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n   * Returns the ISO 639-1 list of languages translated in the language passed as a parameter\n   * @param  {String} lang The desired language for the translation\n   * @return {Array}      The language list\n   ",
+      "range": [
+        1060,
+        1275
+      ],
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n   * Returns the translation for the language code passed as a parameter in the language passed as a parameter\n   * @param  {String} lang        The languages desired for the translation\n   * @param  {String} langCode The language code for which to return the cuntry name\n   * @return {String}             The translated country name\n",
+      "range": [
+        1355,
+        1695
+      ],
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 0
+        },
+        "end": {
+          "line": 45,
+          "column": 2
+        }
+      }
+    }
+  ]
+}
