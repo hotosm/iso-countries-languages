@@ -1,6 +1,6 @@
 {
   "name": "iso-countries-languages",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ISO 639-1 languages and ISO 3166-1 countries translated in 89 languages",
   "main": "./lib/iso-countries-languages.js",
   "scripts": {
