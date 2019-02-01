@@ -4,7 +4,7 @@
   "description": "ISO 639-1 languages and ISO 3166-1 countries translated in 89 languages",
   "main": "./lib/iso-countries-languages.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack --progress"
+    "build": "NODE_ENV=production webpack --progress --optimize-minimize"
   },
   "repository": {
     "type": "git",
