@@ -4,7 +4,7 @@
   "description": "ISO 639-1 languages and ISO 3166-1 countries translated in 89 languages",
   "main": "./lib/iso-countries-languages.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack --progress --optimize-minimize"
+    "build": "NODE_ENV=production webpack --progress"
   },
   "repository": {
     "type": "git",
@@ -13,9 +13,10 @@
   "author": "Luca Tagliaferri",
   "license": "MIT",
   "devDependencies": {
-    "json-loader": "^0.5.4",
+    "json-loader": "^0.5.7",
     "lzstring-loader": "^0.2.0",
-    "webpack": "1.13.3"
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
   },
   "dependencies": {}
 }

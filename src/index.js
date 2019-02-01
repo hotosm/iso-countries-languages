@@ -1,5 +1,5 @@
-var packagedJson = JSON.parse(require('lzstring!./packagedJson.json'));
-var supportedLangs = require('json!./supportedLangs.json');
+var packagedJson = JSON.parse(require('lzstring-loader!./packagedJson.json.icl'));
+var supportedLangs = require('./supportedLangs.json');
 
 /**
 	 * Returns the list of supported languages

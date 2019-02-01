@@ -2,26 +2,23 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
+  mode: "production", 
   entry: './src/index.js',
-  extensions: ['', '.js', '.json'],
+  resolve: {
+    extensions: [ '.js','.json'],
+  },
   output: {
-    path: './lib',
+    path: path.resolve(__dirname, "lib"), // string
     filename: 'iso-countries-languages.js',
     library: 'IsoCountriesLanguages',
     libraryTarget: 'umd'
   },
   plugins: [
-    
   ],
   module: {
-    loaders: [
   
-    ]
   },
   externals: [
    
-  ],
-  resolve: {
-    
-  }
+  ]
 }

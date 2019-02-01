@@ -11,6 +11,6 @@ for (const lang of supportedLangs) {
 	obj.countries[lang] = require(`../res/countries/${lang}`);
 }
 
-fs.writeFileSync(`../src/packagedJson.json`,
+fs.writeFileSync(`../src/packagedJson.json.icl`,
       JSON.stringify(obj));
 
