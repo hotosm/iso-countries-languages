@@ -2,6 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
+  target: "node",
   mode: "production", 
   entry: './src/index.js',
   resolve: {
