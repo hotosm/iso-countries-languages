@@ -4,7 +4,8 @@
   "description": "ISO 639-1 languages and ISO 3166-1 countries translated in 89 languages",
   "main": "./lib/iso-countries-languages.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack --progress"
+    "build": "NODE_ENV=production webpack --progress",
+    "packageJson": "node -r esm scripts/packageJson"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   "author": "Luca Tagliaferri",
   "license": "MIT",
   "devDependencies": {
+    "esm": "^3.2.25",
     "json-loader": "^0.5.7",
     "lzstring-loader": "^0.2.0",
     "webpack": "^4.29.0",
