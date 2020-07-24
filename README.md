@@ -1,5 +1,7 @@
 # iso-countries-languages
 
+[![npm version](https://badge.fury.io/js/%40hotosm%2Fiso-countries-languages.svg)](https://badge.fury.io/js/%40hotosm%2Fiso-countries-languages)
+
 This library provides the full list of [ISO 639-1 languages](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and the full list of [ISO 3166-1 countries](https://en.wikipedia.org/wiki/ISO_3166-1). The library supports 89 languages (the full list is available by querying the library API itself) and it is designed to be easy to import and use.
 
 ## Installation
@@ -17,7 +19,7 @@ This library includes data for more than 150 languages. To make the build smalle
 - Modify [supportedLangs.json](/src/supportedLangs.json)
 - Run `yarn all`
 
-To update the countries data from OpenStreetMap, execute `yarn update-countries`
+To update the countries data from OpenStreetMap, execute `yarn update-countries`.
 
 ## API list
 
@@ -163,4 +165,4 @@ Spagnolo
 
 MIT License
 
-The country names included in this project came from [OpenStreetMap](https://osm.org/copyright). The data is made available under ODbL.
+The country names included in this project came from [OpenStreetMap](https://osm.org/copyright). The data is made available under [ODbL](https://opendatacommons.org/licenses/odbl/).
