@@ -1,24 +1,32 @@
 {
   "name": "@hotosm/iso-countries-languages",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "description": "ISO 639-1 languages and ISO 3166-1 countries translated in the languages required by Tasking Manager",
   "main": "./lib/iso-countries-languages.js",
   "scripts": {
+    "all": "npm run update-resources && prettier --write res/countries/* && npm run pack && npm run build",
     "build": "NODE_ENV=production webpack --progress",
-    "packageJson": "node -r esm scripts/packageJson"
+    "pack": "node -r esm scripts/packageJson",
+    "update-resources": "node -r esm scripts/updateResources",
+    "update-countries": "node -r esm scripts/downloadCountriesData",
+    "test": "jest",
+    "prettier": "prettier --write ."
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/hotosm/iso-countries-languages"
   },
-  "author": "Luca Tagliaferri",
+  "author": "Humanitarian OpenStreetMap Team",
   "license": "MIT",
   "devDependencies": {
     "esm": "^3.2.25",
+    "jest": "^26.1.0",
     "json-loader": "^0.5.7",
     "lzstring-loader": "^0.2.0",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "prettier": "^2.0.5"
+  }
 }

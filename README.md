@@ -1,24 +1,27 @@
-![ Code documentation ](./esdoc/badge.svg)
-
-
-# iso-countries-languages #
+# iso-countries-languages
 
 This library provides the full list of [ISO 639-1 languages](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and the full list of [ISO 3166-1 countries](https://en.wikipedia.org/wiki/ISO_3166-1). The library supports 89 languages (the full list is available by querying the library API itself) and it is designed to be easy to import and use.
 
-# How to install and use#
+## Installation
 
 Simply run the following code and look at the examples to see typical usages:
+
 ```
-npm install iso-countries-languages
+yarn add @hotosm/iso-countries-languages
 ```
 
-# Code documentation
+## Customization
 
-[ Code documentation ](./esdoc/index.html)
+This library includes data for more than 150 languages. To make the build smaller, we have only 24 languages enabled, but you can easily build that package with more languages enabled. Follow those steps:
 
-## API list ##
+- Modify [supportedLangs.json](/src/supportedLangs.json)
+- Run `yarn all`
 
-### getSupportedLangs ###
+To update the countries data from OpenStreetMap, execute `yarn update-countries`
+
+## API list
+
+### getSupportedLangs
 
 Returns the list of supported languages.
 
@@ -30,17 +33,18 @@ console.log("Supported languages: ");
 console.log(supportedLangs);
 ```
 
-#### Output ####
+#### Output
+
 ```
-Supported languages: 
+Supported languages:
 [ 'af',
   'am',
   'ar',
   'az',
   'ba',
-  
+
   ...
-  
+
   'udm',
   'uk',
   'ur',
@@ -51,9 +55,10 @@ Supported languages:
   'zh' ]
 ```
 
-### getCountries ###
+### getCountries
 
 Returns the ISO 3166-1 list of countries translated in the language passed as a parameter.
+
 ```
 var isoCountriesLanguages = require('iso-countries-languages');
 
@@ -62,16 +67,17 @@ console.log("Countries in french: ");
 console.log(countriesInFrench);
 ```
 
-#### Output ####
+#### Output
+
 ```
-Countries in french: 
+Countries in french:
 { AF: 'Afghanistan',
   AX: 'Les Îles D\'Åland',
   AL: 'L\'albanie',
   DZ: 'L\'algérie',
   AS: 'Samoa Américaines',
   AD: 'Andorre',
-  
+
   ...
 
   WF: 'Wallis-et-Futuna',
@@ -81,9 +87,10 @@ Countries in french:
   ZW: 'Zimbabwe' }
 ```
 
-### getCountry ###
+### getCountry
 
 Returns the translation for the country code passed as a parameter in the language passed as a parameter.
+
 ```
 var isoCountriesLanguages = require('iso-countries-languages');
 
@@ -92,15 +99,17 @@ console.log("Italy in french: ");
 console.log(italyInFrench);
 ```
 
-#### Output ####
+#### Output
+
 ```
-Italy in french: 
+Italy in french:
 Italie
 ```
 
-### getLanguages ###
+### getLanguages
 
 Returns the ISO 639-1 list of languages translated in the language passed as a parameter
+
 ```
 var isoCountriesLanguages = require('iso-countries-languages');
 
@@ -109,9 +118,10 @@ console.log("Languages in italian: ");
 console.log(languagesInItalian);
 ```
 
-#### Output ####
+#### Output
+
 ```
-Languages in italian: 
+Languages in italian:
 { ab: 'Di abcasia',
   aa: 'Lontano',
   af: 'Afrikaans',
@@ -119,7 +129,7 @@ Languages in italian:
   sq: 'Albanese',
   am: 'Amarico',
   ar: 'Arabo',
-   
+
   ...
 
   xh: 'Xhosa',
@@ -130,9 +140,10 @@ Languages in italian:
 
 ```
 
-### getLanguage ###
+### getLanguage
 
 Returns the translation for the language code passed as a parameter in the language passed as a parameter
+
 ```
 var isoCountriesLanguages = require('iso-countries-languages');
 
@@ -141,8 +152,15 @@ console.log("Spanish in italian: ");
 console.log(spanishInItalian);
 ```
 
-#### Output ####
+#### Output
+
 ```
-Spanish in italian: 
+Spanish in italian:
 Spagnolo
 ```
+
+#### License
+
+MIT License
+
+The country names included in this project came from [OpenStreetMap](https://osm.org/copyright). The data is made available under ODbL.
