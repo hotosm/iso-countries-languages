@@ -51,10 +51,10 @@ test('supportedLangs is correctly formatted', () => {
   expect(typeof supportedLangs[0]).toBe('string');
   expect(supportedLangs.length).toBe(24);
 });
-test('getCountries return an array with 213 items', () => {
+test('getCountries return an array with 222 items', () => {
   var countriesInFrench = isoCountriesLanguages.getCountries('fr');
   expect(typeof countriesInFrench).toBe('object');
-  expect(Object.keys(countriesInFrench).length).toBe(213);
+  expect(Object.keys(countriesInFrench).length).toBe(222);
   expect(countriesInFrench.ZA).toBe('Afrique du Sud');
 });
 test('getCountry returns the correct translated name', () => {
