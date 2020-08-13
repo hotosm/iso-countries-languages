@@ -1,6 +1,6 @@
 {
   "name": "@hotosm/iso-countries-languages",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ISO 639-1 languages and ISO 3166-1 countries translated in the languages required by Tasking Manager",
   "main": "./lib/iso-countries-languages.js",
   "scripts": {
