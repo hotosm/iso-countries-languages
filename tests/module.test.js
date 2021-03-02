@@ -49,7 +49,7 @@ test('supportedLangs is correctly formatted', () => {
   var supportedLangs = isoCountriesLanguages.getSupportedLangs();
   expect(typeof supportedLangs).toBe('object');
   expect(typeof supportedLangs[0]).toBe('string');
-  expect(supportedLangs.length).toBe(24);
+  expect(supportedLangs.length).toBe(25);
 });
 test('getCountries return an array with 222 items', () => {
   var countriesInFrench = isoCountriesLanguages.getCountries('fr');
